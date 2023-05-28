@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "filtfilt"
+version = "0.1.0"
+description = "A zero-phase digital filtering implementation in Python."
+authors = ["luckykk273 <luckykk273@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.8"
+numpy = "^1.24.3"
+
+
+[tool.poetry.group.dev.dependencies]
+scipy = "^1.10.1"
+pandas = "^2.0.1"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
