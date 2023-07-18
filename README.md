@@ -1,5 +1,6 @@
 # filtfilt
-A zero-phase digital filtering implementation in Python.
+A zero-phase digital filtering implementation in Python.  
+**This repository is just to re-implement the `scipy.signal.filtfilt()` in pure Python.**
 
 # Usage
 If you only want to run the function `filtfilt()` without tests:
@@ -25,4 +26,5 @@ For simplification,
 
 
 # Reference
+[scipy.signal.filtfilt](https://github.com/scipy/scipy/blob/909baa6b21a884afa8f8e1f8f3226fa9e55bc2ad/scipy/signal/_signaltools.py#L4000)  
 [linear filter](https://github.com/KBaur/FiltFilt)
